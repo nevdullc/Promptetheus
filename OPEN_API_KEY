@@ -1,0 +1,12 @@
+This script is requiring an openAI_API key, which you will have to provide on your own in order to keep working with this 
+script, there are many how to's on how to aquire and enable an API_KEY for OpenAI:
+
+https://openai.com/api/
+
+Running the script without an OPENAI_API_KEY value results in the following error:
+
+raise openai.error.AuthenticationError(
+openai.error.AuthenticationError: No API key provided. You can set your API key in code using 'openai.api_key = <API-KEY>',
+or you can set the environment variable OPENAI_API_KEY=<API-KEY>). If your API key is stored in a file, you can point the 
+openai module at it with 'openai.api_key_path = <PATH>'. You can generate API keys in the OpenAI web interface. 
+See https://onboard.openai.com for details,or email support@openai.com if you have any questions.
