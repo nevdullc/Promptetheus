@@ -1,4 +1,10 @@
 # Promptetheus
+
+This script is a work in progress, not quite working yet, the exexution is ok, but there are limitations to the 
+current methods employed: 
+
+openai.error.RateLimitError: You exceeded your current quota, please check your plan and billing details.
+
 Python scripting to process a list of prompts for openAI to process in a batch, providing output to a local file.
 chatGPT prompt:please help write a python script that takes a list of prompts as it's 
 input argument, (a file name on the command line), the script should iterate 
